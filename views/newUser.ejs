@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./partials/head') %>
+  <title>Create a User</title>
+</head>
+<body>
+  <%- include('./partials/nav') %>
+
+  <div class="container"></div>
+    <form action="/worko/user" method="POST">
+
+      <div class="m-3">
+        <label for="title" class="form-label">Email</label>
+        <input type="email" class="form-control" id="title" name="email" aria-describedby="title" />
+      </div>
+
+      <div class="m-3">
+        <label for="body">Name</label>
+        <input name="name" class="form-control" id="body">
+      </div>
+
+      <div class="m-3">
+        <label for="body">Age</label>
+        <input name="age" class="form-control" id="body">
+      </div>
+
+      <div class="m-3">
+        <label for="body">City</label>
+        <input name="city" class="form-control" id="body">
+      </div>
+
+      <div class="m-3 mr-4">
+        <label for="body">ZipCode</label>
+        <input name="zipCode" class="form-control" id="body">
+      </div>
+
+      <!-- <label for="">Email: </label>
+      <input type="text" name="email" placeholder="abc@gmail.com" />
+
+      <label for="">Name</label>
+      <input type="text" name="name">
+
+      <label>Age</label>
+      <input type="text" name="age">
+
+      <label>City</label>
+      <input type="text" name="city">
+
+      <label>ZipCode</label>
+      <input type="text" name="zipcode"> -->
+
+      <div class="m-5">
+        <button class="btn btn-primary">Submit</button>
+      </div>
+
+    </form>
+  </div>
+
+</body>
+</html>

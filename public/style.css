@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 1rem;
+}
+body {
+  /* background-image: linear-gradient(to left, aliceblue, #e1e8ea); */
+  background-color: aliceblue;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+.user {
+  margin: 2rem 0 0 0.3rem;
+  background-color: rgba(197, 197, 198, 0.248);
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+}
+
+/* .user{
+  margin-left: 2rem;
+} */
