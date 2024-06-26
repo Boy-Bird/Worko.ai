@@ -24,10 +24,6 @@ const userSchema = new mongoose.Schema({
   },
   zipCode: {
     type: Number,
-    // validate(value){
-    //   if(value < 5 || value > 8)
-    //     throw new Error("ZipCode is invalid");
-    // },
   }
 }, {timestamps: true });
 
